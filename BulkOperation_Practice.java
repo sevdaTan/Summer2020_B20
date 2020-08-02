@@ -19,5 +19,19 @@ public class BulkOperation_Practice {
 
         System.out.println(r1);
 
+        System.out.println("===============");
+
+        ArrayList<String> group14 = new ArrayList<>();
+
+        group14.addAll(Arrays.asList("Sevda","Busra","Jika","Fatih","Sardor","Samir"));
+
+        boolean result = group14.containsAll(Arrays.asList("Muhtar","Asiya","Kuzzat"));
+        System.out.println(result);
+
+
+
+
+
+
     }
 }
