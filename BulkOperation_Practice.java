@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class BulkOperation_Practice {
     public static void main(String[] args) {
-
+        System.out.println("======= containsAll =======");
         ArrayList<String> students = new ArrayList<>();
         students.add("Sevda");
         students.add("Busra");
