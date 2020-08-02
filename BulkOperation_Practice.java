@@ -24,14 +24,9 @@ public class BulkOperation_Practice {
         ArrayList<String> group14 = new ArrayList<>();
 
         group14.addAll(Arrays.asList("Sevda","Busra","Jika","Fatih","Sardor","Samir"));
-
+        System.out.println(group14);
         boolean result = group14.containsAll(Arrays.asList("Muhtar","Asiya","Kuzzat"));
         System.out.println(result);
-
-
-
-
-
 
     }
 }
