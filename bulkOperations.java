@@ -49,7 +49,7 @@ public class bulkOperations {
         System.out.println(numbers);
 
         System.out.println();
-        System.out.println("======= removeall =========");
+        System.out.println("======= removeAll =========");
         System.out.println();
 
         ArrayList<Integer> nums = new ArrayList<>();
