@@ -52,12 +52,7 @@ public class Lambda_Expression {
 
         System.out.println(nums);
 
-        System.out.println("====== remove digits and letters from the arrayList =====");
-
-        ArrayList<Character> chars = new ArrayList<>();
 
 
-
-
-    }
+  }
 }
