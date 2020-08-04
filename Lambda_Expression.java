@@ -22,13 +22,13 @@ public class Lambda_Expression {
 
         System.out.println("===== remove all the odd / even numbers from the arrayList =====");
 
-        Predicate<Integer> oddNums = p -> p %2 != 0;
+        Predicate<Integer> oddNums = p -> p %2 != 0;//remove if the number is odd
         ArrayList<Integer> numbers  = new ArrayList<>();
 
         for (int i = 0; i <= 100; i++){
             numbers.add(i);
         }
-        numbers.removeIf(oddNums);
+       // numbers.removeIf(oddNums);// if we remove both even & odd numbers, the result will be empty []
         numbers.removeIf(p -> p %2 == 0); // remove if the number is even
 
         System.out.println(numbers);
